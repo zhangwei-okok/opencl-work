@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/dp-mul.dir/started/dp-mul/dp-mul.cpp.o -o ../../bin/started/dp-mul  -Wl,-rpath,/home/waylau/Job/opencl-work/bin/libary -ldl /usr/lib/x86_64-linux-gnu/libOpenCL.so ../libcl-framwork.a ../../bin/libary/libdlfcn.so -lassimp -lm -lrt -ldl -lGLX -lX11 -lpthread -lassimp -lm -lrt -lGLX -lX11 -lpthread 

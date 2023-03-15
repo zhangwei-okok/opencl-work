@@ -1,0 +1,10 @@
+/home/waylau/Job/opencl-work/build/CMakeFiles/edit_cache.dir
+/home/waylau/Job/opencl-work/build/CMakeFiles/rebuild_cache.dir
+/home/waylau/Job/opencl-work/build/CMakeFiles/cl-framwork.dir
+/home/waylau/Job/opencl-work/build/CMakeFiles/dlfcn.dir
+/home/waylau/Job/opencl-work/build/sample/CMakeFiles/smoothing.dir
+/home/waylau/Job/opencl-work/build/sample/CMakeFiles/imgmirror.dir
+/home/waylau/Job/opencl-work/build/sample/CMakeFiles/edit_cache.dir
+/home/waylau/Job/opencl-work/build/sample/CMakeFiles/first.dir
+/home/waylau/Job/opencl-work/build/sample/CMakeFiles/rebuild_cache.dir
+/home/waylau/Job/opencl-work/build/sample/CMakeFiles/dp-mul.dir

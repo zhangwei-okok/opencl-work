@@ -1,0 +1,1152 @@
+Determining if the CL_VERSION_2_2 exist failed with the following output:
+Change Dir: /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_27a51/fast && /usr/bin/make  -f CMakeFiles/cmTC_27a51.dir/build.make CMakeFiles/cmTC_27a51.dir/build
+make[1]: 进入目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_27a51.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_27a51.dir/CheckSymbolExists.c.o -c /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘CL_VERSION_2_2’ undeclared (first use in this function); did you mean ‘CL_VERSION_1_2’?
+   return ((int*)(&CL_VERSION_2_2))[argc];
+                   ^~~~~~~~~~~~~~
+                   CL_VERSION_1_2
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_27a51.dir/build.make:78：CMakeFiles/cmTC_27a51.dir/CheckSymbolExists.c.o] 错误 1
+make[1]: 离开目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:127：cmTC_27a51/fast] 错误 2
+
+
+File /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/local/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_2
+  return ((int*)(&CL_VERSION_2_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_1 exist failed with the following output:
+Change Dir: /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c31a9/fast && /usr/bin/make  -f CMakeFiles/cmTC_c31a9.dir/build.make CMakeFiles/cmTC_c31a9.dir/build
+make[1]: 进入目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_c31a9.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c31a9.dir/CheckSymbolExists.c.o -c /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘CL_VERSION_2_1’ undeclared (first use in this function); did you mean ‘CL_VERSION_1_1’?
+   return ((int*)(&CL_VERSION_2_1))[argc];
+                   ^~~~~~~~~~~~~~
+                   CL_VERSION_1_1
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_c31a9.dir/build.make:78：CMakeFiles/cmTC_c31a9.dir/CheckSymbolExists.c.o] 错误 1
+make[1]: 离开目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:127：cmTC_c31a9/fast] 错误 2
+
+
+File /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/local/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_1
+  return ((int*)(&CL_VERSION_2_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_2 exist failed with the following output:
+Change Dir: /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_bdbbc/fast && /usr/bin/make  -f CMakeFiles/cmTC_bdbbc.dir/build.make CMakeFiles/cmTC_bdbbc.dir/build
+make[1]: 进入目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_bdbbc.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_bdbbc.dir/CheckSymbolExists.c.o -c /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘CL_VERSION_2_2’ undeclared (first use in this function); did you mean ‘CL_VERSION_1_2’?
+   return ((int*)(&CL_VERSION_2_2))[argc];
+                   ^~~~~~~~~~~~~~
+                   CL_VERSION_1_2
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_bdbbc.dir/build.make:78：CMakeFiles/cmTC_bdbbc.dir/CheckSymbolExists.c.o] 错误 1
+make[1]: 离开目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:127：cmTC_bdbbc/fast] 错误 2
+
+
+File /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/local/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_2
+  return ((int*)(&CL_VERSION_2_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_1 exist failed with the following output:
+Change Dir: /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1f6d1/fast && /usr/bin/make  -f CMakeFiles/cmTC_1f6d1.dir/build.make CMakeFiles/cmTC_1f6d1.dir/build
+make[1]: 进入目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_1f6d1.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1f6d1.dir/CheckSymbolExists.c.o -c /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘CL_VERSION_2_1’ undeclared (first use in this function); did you mean ‘CL_VERSION_1_1’?
+   return ((int*)(&CL_VERSION_2_1))[argc];
+                   ^~~~~~~~~~~~~~
+                   CL_VERSION_1_1
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_1f6d1.dir/build.make:78：CMakeFiles/cmTC_1f6d1.dir/CheckSymbolExists.c.o] 错误 1
+make[1]: 离开目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:127：cmTC_1f6d1/fast] 错误 2
+
+
+File /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/local/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_1
+  return ((int*)(&CL_VERSION_2_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_2 exist failed with the following output:
+Change Dir: /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6650c/fast && /usr/bin/make  -f CMakeFiles/cmTC_6650c.dir/build.make CMakeFiles/cmTC_6650c.dir/build
+make[1]: 进入目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_6650c.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_6650c.dir/CheckSymbolExists.c.o -c /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘CL_VERSION_2_2’ undeclared (first use in this function); did you mean ‘CL_VERSION_1_2’?
+   return ((int*)(&CL_VERSION_2_2))[argc];
+                   ^~~~~~~~~~~~~~
+                   CL_VERSION_1_2
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_6650c.dir/build.make:78：CMakeFiles/cmTC_6650c.dir/CheckSymbolExists.c.o] 错误 1
+make[1]: 离开目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:127：cmTC_6650c/fast] 错误 2
+
+
+File /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/local/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_2
+  return ((int*)(&CL_VERSION_2_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_1 exist failed with the following output:
+Change Dir: /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_009f5/fast && /usr/bin/make  -f CMakeFiles/cmTC_009f5.dir/build.make CMakeFiles/cmTC_009f5.dir/build
+make[1]: 进入目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_009f5.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_009f5.dir/CheckSymbolExists.c.o -c /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘CL_VERSION_2_1’ undeclared (first use in this function); did you mean ‘CL_VERSION_1_1’?
+   return ((int*)(&CL_VERSION_2_1))[argc];
+                   ^~~~~~~~~~~~~~
+                   CL_VERSION_1_1
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_009f5.dir/build.make:78：CMakeFiles/cmTC_009f5.dir/CheckSymbolExists.c.o] 错误 1
+make[1]: 离开目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:127：cmTC_009f5/fast] 错误 2
+
+
+File /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/local/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_1
+  return ((int*)(&CL_VERSION_2_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_2 exist failed with the following output:
+Change Dir: /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_72ee3/fast && /usr/bin/make  -f CMakeFiles/cmTC_72ee3.dir/build.make CMakeFiles/cmTC_72ee3.dir/build
+make[1]: 进入目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_72ee3.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_72ee3.dir/CheckSymbolExists.c.o -c /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘CL_VERSION_2_2’ undeclared (first use in this function); did you mean ‘CL_VERSION_1_2’?
+   return ((int*)(&CL_VERSION_2_2))[argc];
+                   ^~~~~~~~~~~~~~
+                   CL_VERSION_1_2
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_72ee3.dir/build.make:78：CMakeFiles/cmTC_72ee3.dir/CheckSymbolExists.c.o] 错误 1
+make[1]: 离开目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:127：cmTC_72ee3/fast] 错误 2
+
+
+File /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/local/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_2
+  return ((int*)(&CL_VERSION_2_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_1 exist failed with the following output:
+Change Dir: /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0676e/fast && /usr/bin/make  -f CMakeFiles/cmTC_0676e.dir/build.make CMakeFiles/cmTC_0676e.dir/build
+make[1]: 进入目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_0676e.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0676e.dir/CheckSymbolExists.c.o -c /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘CL_VERSION_2_1’ undeclared (first use in this function); did you mean ‘CL_VERSION_1_1’?
+   return ((int*)(&CL_VERSION_2_1))[argc];
+                   ^~~~~~~~~~~~~~
+                   CL_VERSION_1_1
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_0676e.dir/build.make:78：CMakeFiles/cmTC_0676e.dir/CheckSymbolExists.c.o] 错误 1
+make[1]: 离开目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:127：cmTC_0676e/fast] 错误 2
+
+
+File /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/local/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_1
+  return ((int*)(&CL_VERSION_2_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_2 exist failed with the following output:
+Change Dir: /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2bac1/fast && /usr/bin/make  -f CMakeFiles/cmTC_2bac1.dir/build.make CMakeFiles/cmTC_2bac1.dir/build
+make[1]: 进入目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_2bac1.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2bac1.dir/CheckSymbolExists.c.o -c /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘CL_VERSION_2_2’ undeclared (first use in this function); did you mean ‘CL_VERSION_1_2’?
+   return ((int*)(&CL_VERSION_2_2))[argc];
+                   ^~~~~~~~~~~~~~
+                   CL_VERSION_1_2
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_2bac1.dir/build.make:78：CMakeFiles/cmTC_2bac1.dir/CheckSymbolExists.c.o] 错误 1
+make[1]: 离开目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:127：cmTC_2bac1/fast] 错误 2
+
+
+File /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/local/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_2
+  return ((int*)(&CL_VERSION_2_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_1 exist failed with the following output:
+Change Dir: /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_44d5a/fast && /usr/bin/make  -f CMakeFiles/cmTC_44d5a.dir/build.make CMakeFiles/cmTC_44d5a.dir/build
+make[1]: 进入目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_44d5a.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_44d5a.dir/CheckSymbolExists.c.o -c /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘CL_VERSION_2_1’ undeclared (first use in this function); did you mean ‘CL_VERSION_1_1’?
+   return ((int*)(&CL_VERSION_2_1))[argc];
+                   ^~~~~~~~~~~~~~
+                   CL_VERSION_1_1
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_44d5a.dir/build.make:78：CMakeFiles/cmTC_44d5a.dir/CheckSymbolExists.c.o] 错误 1
+make[1]: 离开目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:127：cmTC_44d5a/fast] 错误 2
+
+
+File /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/local/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_1
+  return ((int*)(&CL_VERSION_2_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_2 exist failed with the following output:
+Change Dir: /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c5abb/fast && /usr/bin/make  -f CMakeFiles/cmTC_c5abb.dir/build.make CMakeFiles/cmTC_c5abb.dir/build
+make[1]: 进入目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_c5abb.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c5abb.dir/CheckSymbolExists.c.o -c /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘CL_VERSION_2_2’ undeclared (first use in this function); did you mean ‘CL_VERSION_1_2’?
+   return ((int*)(&CL_VERSION_2_2))[argc];
+                   ^~~~~~~~~~~~~~
+                   CL_VERSION_1_2
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_c5abb.dir/build.make:78：CMakeFiles/cmTC_c5abb.dir/CheckSymbolExists.c.o] 错误 1
+make[1]: 离开目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:127：cmTC_c5abb/fast] 错误 2
+
+
+File /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/local/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_2
+  return ((int*)(&CL_VERSION_2_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_1 exist failed with the following output:
+Change Dir: /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ee7cb/fast && /usr/bin/make  -f CMakeFiles/cmTC_ee7cb.dir/build.make CMakeFiles/cmTC_ee7cb.dir/build
+make[1]: 进入目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_ee7cb.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ee7cb.dir/CheckSymbolExists.c.o -c /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘CL_VERSION_2_1’ undeclared (first use in this function); did you mean ‘CL_VERSION_1_1’?
+   return ((int*)(&CL_VERSION_2_1))[argc];
+                   ^~~~~~~~~~~~~~
+                   CL_VERSION_1_1
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_ee7cb.dir/build.make:78：CMakeFiles/cmTC_ee7cb.dir/CheckSymbolExists.c.o] 错误 1
+make[1]: 离开目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:127：cmTC_ee7cb/fast] 错误 2
+
+
+File /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/local/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_1
+  return ((int*)(&CL_VERSION_2_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_2 exist failed with the following output:
+Change Dir: /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ca62f/fast && /usr/bin/make  -f CMakeFiles/cmTC_ca62f.dir/build.make CMakeFiles/cmTC_ca62f.dir/build
+make[1]: 进入目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_ca62f.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ca62f.dir/CheckSymbolExists.c.o -c /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘CL_VERSION_2_2’ undeclared (first use in this function); did you mean ‘CL_VERSION_1_2’?
+   return ((int*)(&CL_VERSION_2_2))[argc];
+                   ^~~~~~~~~~~~~~
+                   CL_VERSION_1_2
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_ca62f.dir/build.make:78：CMakeFiles/cmTC_ca62f.dir/CheckSymbolExists.c.o] 错误 1
+make[1]: 离开目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:127：cmTC_ca62f/fast] 错误 2
+
+
+File /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/local/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_2
+  return ((int*)(&CL_VERSION_2_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_1 exist failed with the following output:
+Change Dir: /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b570d/fast && /usr/bin/make  -f CMakeFiles/cmTC_b570d.dir/build.make CMakeFiles/cmTC_b570d.dir/build
+make[1]: 进入目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_b570d.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b570d.dir/CheckSymbolExists.c.o -c /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘CL_VERSION_2_1’ undeclared (first use in this function); did you mean ‘CL_VERSION_1_1’?
+   return ((int*)(&CL_VERSION_2_1))[argc];
+                   ^~~~~~~~~~~~~~
+                   CL_VERSION_1_1
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_b570d.dir/build.make:78：CMakeFiles/cmTC_b570d.dir/CheckSymbolExists.c.o] 错误 1
+make[1]: 离开目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:127：cmTC_b570d/fast] 错误 2
+
+
+File /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/local/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_1
+  return ((int*)(&CL_VERSION_2_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_2 exist failed with the following output:
+Change Dir: /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_112d8/fast && /usr/bin/make  -f CMakeFiles/cmTC_112d8.dir/build.make CMakeFiles/cmTC_112d8.dir/build
+make[1]: 进入目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_112d8.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_112d8.dir/CheckSymbolExists.c.o -c /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘CL_VERSION_2_2’ undeclared (first use in this function); did you mean ‘CL_VERSION_1_2’?
+   return ((int*)(&CL_VERSION_2_2))[argc];
+                   ^~~~~~~~~~~~~~
+                   CL_VERSION_1_2
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_112d8.dir/build.make:78：CMakeFiles/cmTC_112d8.dir/CheckSymbolExists.c.o] 错误 1
+make[1]: 离开目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:127：cmTC_112d8/fast] 错误 2
+
+
+File /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/local/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_2
+  return ((int*)(&CL_VERSION_2_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_1 exist failed with the following output:
+Change Dir: /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1ce68/fast && /usr/bin/make  -f CMakeFiles/cmTC_1ce68.dir/build.make CMakeFiles/cmTC_1ce68.dir/build
+make[1]: 进入目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_1ce68.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1ce68.dir/CheckSymbolExists.c.o -c /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘CL_VERSION_2_1’ undeclared (first use in this function); did you mean ‘CL_VERSION_1_1’?
+   return ((int*)(&CL_VERSION_2_1))[argc];
+                   ^~~~~~~~~~~~~~
+                   CL_VERSION_1_1
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_1ce68.dir/build.make:78：CMakeFiles/cmTC_1ce68.dir/CheckSymbolExists.c.o] 错误 1
+make[1]: 离开目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:127：cmTC_1ce68/fast] 错误 2
+
+
+File /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/local/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_1
+  return ((int*)(&CL_VERSION_2_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_2 exist failed with the following output:
+Change Dir: /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_de82d/fast && /usr/bin/make  -f CMakeFiles/cmTC_de82d.dir/build.make CMakeFiles/cmTC_de82d.dir/build
+make[1]: 进入目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_de82d.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_de82d.dir/CheckSymbolExists.c.o -c /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘CL_VERSION_2_2’ undeclared (first use in this function); did you mean ‘CL_VERSION_1_2’?
+   return ((int*)(&CL_VERSION_2_2))[argc];
+                   ^~~~~~~~~~~~~~
+                   CL_VERSION_1_2
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_de82d.dir/build.make:78：CMakeFiles/cmTC_de82d.dir/CheckSymbolExists.c.o] 错误 1
+make[1]: 离开目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:127：cmTC_de82d/fast] 错误 2
+
+
+File /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/local/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_2
+  return ((int*)(&CL_VERSION_2_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_1 exist failed with the following output:
+Change Dir: /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0c49c/fast && /usr/bin/make  -f CMakeFiles/cmTC_0c49c.dir/build.make CMakeFiles/cmTC_0c49c.dir/build
+make[1]: 进入目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_0c49c.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0c49c.dir/CheckSymbolExists.c.o -c /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘CL_VERSION_2_1’ undeclared (first use in this function); did you mean ‘CL_VERSION_1_1’?
+   return ((int*)(&CL_VERSION_2_1))[argc];
+                   ^~~~~~~~~~~~~~
+                   CL_VERSION_1_1
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_0c49c.dir/build.make:78：CMakeFiles/cmTC_0c49c.dir/CheckSymbolExists.c.o] 错误 1
+make[1]: 离开目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:127：cmTC_0c49c/fast] 错误 2
+
+
+File /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/local/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_1
+  return ((int*)(&CL_VERSION_2_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_2 exist failed with the following output:
+Change Dir: /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_67aa0/fast && /usr/bin/make  -f CMakeFiles/cmTC_67aa0.dir/build.make CMakeFiles/cmTC_67aa0.dir/build
+make[1]: 进入目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_67aa0.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_67aa0.dir/CheckSymbolExists.c.o -c /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘CL_VERSION_2_2’ undeclared (first use in this function); did you mean ‘CL_VERSION_1_2’?
+   return ((int*)(&CL_VERSION_2_2))[argc];
+                   ^~~~~~~~~~~~~~
+                   CL_VERSION_1_2
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_67aa0.dir/build.make:78：CMakeFiles/cmTC_67aa0.dir/CheckSymbolExists.c.o] 错误 1
+make[1]: 离开目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:127：cmTC_67aa0/fast] 错误 2
+
+
+File /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/local/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_2
+  return ((int*)(&CL_VERSION_2_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_1 exist failed with the following output:
+Change Dir: /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d1c86/fast && /usr/bin/make  -f CMakeFiles/cmTC_d1c86.dir/build.make CMakeFiles/cmTC_d1c86.dir/build
+make[1]: 进入目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_d1c86.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d1c86.dir/CheckSymbolExists.c.o -c /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘CL_VERSION_2_1’ undeclared (first use in this function); did you mean ‘CL_VERSION_1_1’?
+   return ((int*)(&CL_VERSION_2_1))[argc];
+                   ^~~~~~~~~~~~~~
+                   CL_VERSION_1_1
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_d1c86.dir/build.make:78：CMakeFiles/cmTC_d1c86.dir/CheckSymbolExists.c.o] 错误 1
+make[1]: 离开目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:127：cmTC_d1c86/fast] 错误 2
+
+
+File /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/local/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_1
+  return ((int*)(&CL_VERSION_2_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_2 exist failed with the following output:
+Change Dir: /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8e3fe/fast && /usr/bin/make  -f CMakeFiles/cmTC_8e3fe.dir/build.make CMakeFiles/cmTC_8e3fe.dir/build
+make[1]: 进入目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_8e3fe.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8e3fe.dir/CheckSymbolExists.c.o -c /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘CL_VERSION_2_2’ undeclared (first use in this function); did you mean ‘CL_VERSION_1_2’?
+   return ((int*)(&CL_VERSION_2_2))[argc];
+                   ^~~~~~~~~~~~~~
+                   CL_VERSION_1_2
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_8e3fe.dir/build.make:78：CMakeFiles/cmTC_8e3fe.dir/CheckSymbolExists.c.o] 错误 1
+make[1]: 离开目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:127：cmTC_8e3fe/fast] 错误 2
+
+
+File /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/local/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_2
+  return ((int*)(&CL_VERSION_2_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_1 exist failed with the following output:
+Change Dir: /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d4ed8/fast && /usr/bin/make  -f CMakeFiles/cmTC_d4ed8.dir/build.make CMakeFiles/cmTC_d4ed8.dir/build
+make[1]: 进入目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_d4ed8.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d4ed8.dir/CheckSymbolExists.c.o -c /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘CL_VERSION_2_1’ undeclared (first use in this function); did you mean ‘CL_VERSION_1_1’?
+   return ((int*)(&CL_VERSION_2_1))[argc];
+                   ^~~~~~~~~~~~~~
+                   CL_VERSION_1_1
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_d4ed8.dir/build.make:78：CMakeFiles/cmTC_d4ed8.dir/CheckSymbolExists.c.o] 错误 1
+make[1]: 离开目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:127：cmTC_d4ed8/fast] 错误 2
+
+
+File /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/local/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_1
+  return ((int*)(&CL_VERSION_2_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_2 exist failed with the following output:
+Change Dir: /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1c407/fast && /usr/bin/make  -f CMakeFiles/cmTC_1c407.dir/build.make CMakeFiles/cmTC_1c407.dir/build
+make[1]: 进入目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_1c407.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1c407.dir/CheckSymbolExists.c.o -c /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘CL_VERSION_2_2’ undeclared (first use in this function); did you mean ‘CL_VERSION_1_2’?
+   return ((int*)(&CL_VERSION_2_2))[argc];
+                   ^~~~~~~~~~~~~~
+                   CL_VERSION_1_2
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_1c407.dir/build.make:78：CMakeFiles/cmTC_1c407.dir/CheckSymbolExists.c.o] 错误 1
+make[1]: 离开目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:127：cmTC_1c407/fast] 错误 2
+
+
+File /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/local/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_2
+  return ((int*)(&CL_VERSION_2_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_1 exist failed with the following output:
+Change Dir: /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f2a93/fast && /usr/bin/make  -f CMakeFiles/cmTC_f2a93.dir/build.make CMakeFiles/cmTC_f2a93.dir/build
+make[1]: 进入目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_f2a93.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f2a93.dir/CheckSymbolExists.c.o -c /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘CL_VERSION_2_1’ undeclared (first use in this function); did you mean ‘CL_VERSION_1_1’?
+   return ((int*)(&CL_VERSION_2_1))[argc];
+                   ^~~~~~~~~~~~~~
+                   CL_VERSION_1_1
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_f2a93.dir/build.make:78：CMakeFiles/cmTC_f2a93.dir/CheckSymbolExists.c.o] 错误 1
+make[1]: 离开目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:127：cmTC_f2a93/fast] 错误 2
+
+
+File /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/local/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_1
+  return ((int*)(&CL_VERSION_2_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_2 exist failed with the following output:
+Change Dir: /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_bd91f/fast && /usr/bin/make  -f CMakeFiles/cmTC_bd91f.dir/build.make CMakeFiles/cmTC_bd91f.dir/build
+make[1]: 进入目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_bd91f.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_bd91f.dir/CheckSymbolExists.c.o -c /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘CL_VERSION_2_2’ undeclared (first use in this function); did you mean ‘CL_VERSION_1_2’?
+   return ((int*)(&CL_VERSION_2_2))[argc];
+                   ^~~~~~~~~~~~~~
+                   CL_VERSION_1_2
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_bd91f.dir/build.make:78：CMakeFiles/cmTC_bd91f.dir/CheckSymbolExists.c.o] 错误 1
+make[1]: 离开目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:127：cmTC_bd91f/fast] 错误 2
+
+
+File /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/local/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_2
+  return ((int*)(&CL_VERSION_2_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_1 exist failed with the following output:
+Change Dir: /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ca251/fast && /usr/bin/make  -f CMakeFiles/cmTC_ca251.dir/build.make CMakeFiles/cmTC_ca251.dir/build
+make[1]: 进入目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_ca251.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ca251.dir/CheckSymbolExists.c.o -c /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘CL_VERSION_2_1’ undeclared (first use in this function); did you mean ‘CL_VERSION_1_1’?
+   return ((int*)(&CL_VERSION_2_1))[argc];
+                   ^~~~~~~~~~~~~~
+                   CL_VERSION_1_1
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_ca251.dir/build.make:78：CMakeFiles/cmTC_ca251.dir/CheckSymbolExists.c.o] 错误 1
+make[1]: 离开目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:127：cmTC_ca251/fast] 错误 2
+
+
+File /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/local/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_1
+  return ((int*)(&CL_VERSION_2_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_2 exist failed with the following output:
+Change Dir: /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a7413/fast && /usr/bin/make  -f CMakeFiles/cmTC_a7413.dir/build.make CMakeFiles/cmTC_a7413.dir/build
+make[1]: 进入目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_a7413.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a7413.dir/CheckSymbolExists.c.o -c /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘CL_VERSION_2_2’ undeclared (first use in this function); did you mean ‘CL_VERSION_1_2’?
+   return ((int*)(&CL_VERSION_2_2))[argc];
+                   ^~~~~~~~~~~~~~
+                   CL_VERSION_1_2
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_a7413.dir/build.make:78：CMakeFiles/cmTC_a7413.dir/CheckSymbolExists.c.o] 错误 1
+make[1]: 离开目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:127：cmTC_a7413/fast] 错误 2
+
+
+File /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/local/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_2
+  return ((int*)(&CL_VERSION_2_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_1 exist failed with the following output:
+Change Dir: /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_684f3/fast && /usr/bin/make  -f CMakeFiles/cmTC_684f3.dir/build.make CMakeFiles/cmTC_684f3.dir/build
+make[1]: 进入目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_684f3.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_684f3.dir/CheckSymbolExists.c.o -c /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘CL_VERSION_2_1’ undeclared (first use in this function); did you mean ‘CL_VERSION_1_1’?
+   return ((int*)(&CL_VERSION_2_1))[argc];
+                   ^~~~~~~~~~~~~~
+                   CL_VERSION_1_1
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_684f3.dir/build.make:78：CMakeFiles/cmTC_684f3.dir/CheckSymbolExists.c.o] 错误 1
+make[1]: 离开目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:127：cmTC_684f3/fast] 错误 2
+
+
+File /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/local/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_1
+  return ((int*)(&CL_VERSION_2_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_2 exist failed with the following output:
+Change Dir: /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6d9ed/fast && /usr/bin/make  -f CMakeFiles/cmTC_6d9ed.dir/build.make CMakeFiles/cmTC_6d9ed.dir/build
+make[1]: 进入目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_6d9ed.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_6d9ed.dir/CheckSymbolExists.c.o -c /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘CL_VERSION_2_2’ undeclared (first use in this function); did you mean ‘CL_VERSION_1_2’?
+   return ((int*)(&CL_VERSION_2_2))[argc];
+                   ^~~~~~~~~~~~~~
+                   CL_VERSION_1_2
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_6d9ed.dir/build.make:78：CMakeFiles/cmTC_6d9ed.dir/CheckSymbolExists.c.o] 错误 1
+make[1]: 离开目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:127：cmTC_6d9ed/fast] 错误 2
+
+
+File /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/local/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_2
+  return ((int*)(&CL_VERSION_2_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_1 exist failed with the following output:
+Change Dir: /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d9e0f/fast && /usr/bin/make  -f CMakeFiles/cmTC_d9e0f.dir/build.make CMakeFiles/cmTC_d9e0f.dir/build
+make[1]: 进入目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_d9e0f.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d9e0f.dir/CheckSymbolExists.c.o -c /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘CL_VERSION_2_1’ undeclared (first use in this function); did you mean ‘CL_VERSION_1_1’?
+   return ((int*)(&CL_VERSION_2_1))[argc];
+                   ^~~~~~~~~~~~~~
+                   CL_VERSION_1_1
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_d9e0f.dir/build.make:78：CMakeFiles/cmTC_d9e0f.dir/CheckSymbolExists.c.o] 错误 1
+make[1]: 离开目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:127：cmTC_d9e0f/fast] 错误 2
+
+
+File /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/local/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_1
+  return ((int*)(&CL_VERSION_2_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_2 exist failed with the following output:
+Change Dir: /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_87849/fast && /usr/bin/make  -f CMakeFiles/cmTC_87849.dir/build.make CMakeFiles/cmTC_87849.dir/build
+make[1]: 进入目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_87849.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_87849.dir/CheckSymbolExists.c.o -c /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘CL_VERSION_2_2’ undeclared (first use in this function); did you mean ‘CL_VERSION_1_2’?
+   return ((int*)(&CL_VERSION_2_2))[argc];
+                   ^~~~~~~~~~~~~~
+                   CL_VERSION_1_2
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_87849.dir/build.make:78：CMakeFiles/cmTC_87849.dir/CheckSymbolExists.c.o] 错误 1
+make[1]: 离开目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:127：cmTC_87849/fast] 错误 2
+
+
+File /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/local/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_2
+  return ((int*)(&CL_VERSION_2_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_1 exist failed with the following output:
+Change Dir: /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_de6f1/fast && /usr/bin/make  -f CMakeFiles/cmTC_de6f1.dir/build.make CMakeFiles/cmTC_de6f1.dir/build
+make[1]: 进入目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_de6f1.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_de6f1.dir/CheckSymbolExists.c.o -c /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘CL_VERSION_2_1’ undeclared (first use in this function); did you mean ‘CL_VERSION_1_1’?
+   return ((int*)(&CL_VERSION_2_1))[argc];
+                   ^~~~~~~~~~~~~~
+                   CL_VERSION_1_1
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_de6f1.dir/build.make:78：CMakeFiles/cmTC_de6f1.dir/CheckSymbolExists.c.o] 错误 1
+make[1]: 离开目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:127：cmTC_de6f1/fast] 错误 2
+
+
+File /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/local/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_1
+  return ((int*)(&CL_VERSION_2_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_2 exist failed with the following output:
+Change Dir: /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_afa5e/fast && /usr/bin/make  -f CMakeFiles/cmTC_afa5e.dir/build.make CMakeFiles/cmTC_afa5e.dir/build
+make[1]: 进入目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_afa5e.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_afa5e.dir/CheckSymbolExists.c.o -c /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘CL_VERSION_2_2’ undeclared (first use in this function); did you mean ‘CL_VERSION_1_2’?
+   return ((int*)(&CL_VERSION_2_2))[argc];
+                   ^~~~~~~~~~~~~~
+                   CL_VERSION_1_2
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_afa5e.dir/build.make:78：CMakeFiles/cmTC_afa5e.dir/CheckSymbolExists.c.o] 错误 1
+make[1]: 离开目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:127：cmTC_afa5e/fast] 错误 2
+
+
+File /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/local/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_2
+  return ((int*)(&CL_VERSION_2_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_1 exist failed with the following output:
+Change Dir: /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_cdf87/fast && /usr/bin/make  -f CMakeFiles/cmTC_cdf87.dir/build.make CMakeFiles/cmTC_cdf87.dir/build
+make[1]: 进入目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_cdf87.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_cdf87.dir/CheckSymbolExists.c.o -c /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘CL_VERSION_2_1’ undeclared (first use in this function); did you mean ‘CL_VERSION_1_1’?
+   return ((int*)(&CL_VERSION_2_1))[argc];
+                   ^~~~~~~~~~~~~~
+                   CL_VERSION_1_1
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_cdf87.dir/build.make:78：CMakeFiles/cmTC_cdf87.dir/CheckSymbolExists.c.o] 错误 1
+make[1]: 离开目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:127：cmTC_cdf87/fast] 错误 2
+
+
+File /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/local/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_1
+  return ((int*)(&CL_VERSION_2_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_2 exist failed with the following output:
+Change Dir: /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_99194/fast && /usr/bin/make  -f CMakeFiles/cmTC_99194.dir/build.make CMakeFiles/cmTC_99194.dir/build
+make[1]: 进入目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_99194.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_99194.dir/CheckSymbolExists.c.o -c /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘CL_VERSION_2_2’ undeclared (first use in this function); did you mean ‘CL_VERSION_1_2’?
+   return ((int*)(&CL_VERSION_2_2))[argc];
+                   ^~~~~~~~~~~~~~
+                   CL_VERSION_1_2
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_99194.dir/build.make:78：CMakeFiles/cmTC_99194.dir/CheckSymbolExists.c.o] 错误 1
+make[1]: 离开目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:127：cmTC_99194/fast] 错误 2
+
+
+File /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/local/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_2
+  return ((int*)(&CL_VERSION_2_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_1 exist failed with the following output:
+Change Dir: /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2d8b0/fast && /usr/bin/make  -f CMakeFiles/cmTC_2d8b0.dir/build.make CMakeFiles/cmTC_2d8b0.dir/build
+make[1]: 进入目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_2d8b0.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2d8b0.dir/CheckSymbolExists.c.o -c /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘CL_VERSION_2_1’ undeclared (first use in this function); did you mean ‘CL_VERSION_1_1’?
+   return ((int*)(&CL_VERSION_2_1))[argc];
+                   ^~~~~~~~~~~~~~
+                   CL_VERSION_1_1
+/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_2d8b0.dir/build.make:78：CMakeFiles/cmTC_2d8b0.dir/CheckSymbolExists.c.o] 错误 1
+make[1]: 离开目录“/home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:127：cmTC_2d8b0/fast] 错误 2
+
+
+File /home/waylau/Job/opencl-work/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/local/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_1
+  return ((int*)(&CL_VERSION_2_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}

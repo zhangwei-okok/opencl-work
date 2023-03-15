@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcl-framwork.a CMakeFiles/cl-framwork.dir/thirdparty/clelapsedtimer.cpp.o CMakeFiles/cl-framwork.dir/thirdparty/clr2.cpp.o CMakeFiles/cl-framwork.dir/thirdparty/fdoutbuf.cpp.o CMakeFiles/cl-framwork.dir/thirdparty/ig.cpp.o
+/usr/bin/ranlib libcl-framwork.a

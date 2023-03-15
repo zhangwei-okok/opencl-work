@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/smoothing.dir/optimization/smoothing/smoothing.cpp.o -o ../../bin/optimization/smoothing  -Wl,-rpath,/home/waylau/Job/opencl-work/bin/libary -ldl /usr/lib/x86_64-linux-gnu/libOpenCL.so ../libcl-framwork.a ../../bin/libary/libdlfcn.so -lassimp -lm -lrt -ldl -lGLX -lX11 -lpthread -lassimp -lm -lrt -lGLX -lX11 -lpthread 
