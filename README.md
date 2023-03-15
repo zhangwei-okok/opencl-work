@@ -4,8 +4,13 @@ opencl demo
 build step:
 
 mkdir build
+
 cd build
 
-cmake ..
+cmake ..  
+
 make -j8
+
 cd bin  
+
+
